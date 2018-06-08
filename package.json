@@ -1,0 +1,22 @@
+{
+  "name": "schoolcity-page-view-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakgajjewar/schoolcity-page-view-status.git"
+  },
+  "author": "Vinayak Gajjewar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakgajjewar/schoolcity-page-view-status/issues"
+  },
+  "homepage": "https://github.com/vinayakgajjewar/schoolcity-page-view-status#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
