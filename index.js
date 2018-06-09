@@ -7,10 +7,6 @@ var fs = require("fs");
 
 app.use(express.static("views"));
 
-app.listen(3000, function() {
-  console.log("Listening on 3000");
-})
-
 fs.readFile("json/data.json", function(err, contents) {
 
   if (err) {
@@ -35,3 +31,7 @@ function processArray(array) {
     response.render("index.ejs", {jsonData: array});
   });
 }
+
+app.listen(3000, function() {
+  console.log("Listening on 3000");
+})
