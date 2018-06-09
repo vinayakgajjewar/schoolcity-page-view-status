@@ -14,14 +14,14 @@
         <th>Bounce Rate</th>
         <th>% Exit</th>
       </tr>
-      <% for (var i = 0; i < jsonData.length; i++) { %>
+      <% for (var i = 0; i < renderData.length; i++) { %>
         <tr>
-          <td><%= jsonData[i].page %></td>
-          <td><%= jsonData[i].pageviews %></td>
-          <td><%= jsonData[i].uniquePageViews %></td>
-          <td><%= jsonData[i].avgTimeOnPage %></td>
-          <td><%= jsonData[i].bounceRate %></td>
-          <td><%= jsonData[i].exitPercent %></td>
+          <td><%= renderData[i].page %></td>
+          <td><%= renderData[i].pageviews %></td>
+          <td><%= renderData[i].uniquePageViews %></td>
+          <td><%= renderData[i].avgTimeOnPage %></td>
+          <td><%= renderData[i].bounceRate %></td>
+          <td><%= renderData[i].exitPercent %></td>
         </tr>
       <% } %>
     </table>

@@ -9,6 +9,7 @@ app.use(express.static("views"));
 
 fs.readFile("json/data.json", function(err, contents) {
 
+  // If there is an error reading the JSON
   if (err) {
     console.log(err);
   }
@@ -17,7 +18,7 @@ fs.readFile("json/data.json", function(err, contents) {
   // Make it a string
   var stringFileContents = contents.toString();
 
-  // Each element is an object
+  // Each element is an object (a row of the table)
   var arrayFileContents = JSON.parse(stringFileContents);
 
   // console.log(arrayFileContents[2].page) // Should print "/"
@@ -28,7 +29,7 @@ function processArray(array) {
   // Renders the ejs
   app.get("/", function(request, response) {
     // Show index.ejs
-    response.render("index.ejs", {jsonData: array});
+    response.render("index.ejs", {renderData: array});
   });
 }
 
