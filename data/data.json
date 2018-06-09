@@ -1,0 +1,82 @@
+[
+ {
+   "page": "",
+   "pageviews": "7,118",
+   "uniquePageViews": "5,354",
+   "avgTimeOnPage": "00:01:20",
+   "bounceRate": "71.38%",
+   "exitPercent": "65.14%"
+ },
+ {
+   "page": "",
+   "pageviews": "% of Total: 100.00% (7,118)",
+   "uniquePageViews": "% of Total: 100.00% (5,354)",
+   "avgTimeOnPage": "avg for View: 0:01:20 (0.00%)",
+   "bounceRate": "avg for View: 71.38% (0.00%)",
+   "exitPercent": "avg for View: 65.14% (0.00%)"
+ },
+ {
+   "page": "/",
+   "pageviews": "6,025(84.64%)",
+   "uniquePageViews": "4,392(82.03%)",
+   "avgTimeOnPage": "00:01:24",
+   "bounceRate": "71.48%",
+   "exitPercent": "68.68%"
+ },
+ {
+   "page": "/Assessment",
+   "pageviews": "224(3.15%)",
+   "uniquePageViews": "193(3.60%)",
+   "avgTimeOnPage": "00:00:46",
+   "bounceRate": "70.83%",
+   "exitPercent": "48.66%"
+ },
+ {
+   "page": "/Demo",
+   "pageviews": "128(1.80%)",
+   "uniquePageViews": "112(2.09%)",
+   "avgTimeOnPage": "00:00:45",
+   "bounceRate": "93.75%",
+   "exitPercent": "36.72%"
+ },
+ {
+   "page": "/Solutions",
+   "pageviews": "97(1.36%)",
+   "uniquePageViews": "75(1.40%)",
+   "avgTimeOnPage": "00:00:48",
+   "bounceRate": "62.50%",
+   "exitPercent": "28.87%"
+ },
+ {
+   "page": "/Contact",
+   "pageviews": "87(1.22%)",
+   "uniquePageViews": "78(1.46%)",
+   "avgTimeOnPage": "00:01:02",
+   "bounceRate": "80.00%",
+   "exitPercent": "56.32%"
+ },
+ {
+   "page": "/Meet-the-team",
+   "pageviews": "66(0.93%)",
+   "uniquePageViews": "62(1.16%)",
+   "avgTimeOnPage": "00:02:05",
+   "bounceRate": "70.59%",
+   "exitPercent": "60.61%"
+ },
+ {
+   "page": "/Reporting",
+   "pageviews": "65(0.91%)",
+   "uniquePageViews": "54(1.01%)",
+   "avgTimeOnPage": "00:02:32",
+   "bounceRate": "58.33%",
+   "exitPercent": "50.77%"
+ },
+ {
+   "page": "/Item-Banks",
+   "pageviews": "46(0.65%)",
+   "uniquePageViews": "42(0.78%)",
+   "avgTimeOnPage": "00:01:37",
+   "bounceRate": "43.75%",
+   "exitPercent": "43.48%"
+ }
+]
