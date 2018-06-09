@@ -9,7 +9,7 @@ app.listen(3000, function() {
   console.log("Listening on 3000");
 })
 
-fs.readFile("data/data.json", function(err, contents) {
+fs.readFile("json/data.json", function(err, contents) {
 
   if (err) {
     console.log(err);
