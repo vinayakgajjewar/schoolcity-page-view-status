@@ -5,6 +5,8 @@ app.set("view engine", "ejs");
 var path = require("path");
 var fs = require("fs");
 
+app.use(express.static("views"));
+
 app.listen(3000, function() {
   console.log("Listening on 3000");
 })
@@ -22,7 +24,7 @@ fs.readFile("json/data.json", function(err, contents) {
   // Each element is an object
   var arrayFileContents = JSON.parse(stringFileContents);
 
-  console.log(arrayFileContents[2].page) // Should print "/"
+  // console.log(arrayFileContents[2].page) // Should print "/"
   processArray(arrayFileContents);
 });
 

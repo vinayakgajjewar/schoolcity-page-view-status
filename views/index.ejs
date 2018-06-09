@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="js/helper.js"></script>
   </head>
   <body>
     <h1>Page View Status</h1>
@@ -24,5 +25,10 @@
         </tr>
       <% } %>
     </table>
+    <button onClick="sortBtnPressed('pageviews')">Sort by Pageviews</button>
+    <button onClick="sortBtnPressed('uniquePageviews')">Sort by Unique Pageviews</button>
+    <button onClick="sortBtnPressed('avgTimeOnPage')">Sort by Avg. Time on Page</button>
+    <button onClick="sortBtnPressed('bounceRate')">Sort by Bounce Rate</button>
+    <button onClick="sortBtnPressed('exitPercent')">Sort by % Exit</button>
   </body>
 </html>
